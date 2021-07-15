@@ -1,0 +1,80 @@
+.card {
+    /*margin: 10px 10px;*/
+    width: 100%;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+
+    background-color: rgba(231, 233, 235, 0.5);
+    padding: 10px;
+    border-radius: 1rem;
+    box-shadow: 1px 1px 12px -1px rgb(0 0 0 / 24%);
+      -webkit-box-shadow: 1px 1px 12px -1px rgb(0 0 0 / 24%);
+      position: relative;
+}
+
+.cover {
+    width: 10%;
+    margin-right: 10px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 1rem;
+    width: 60%;
+    word-wrap: break-word;
+    vertical-align: top;
+    margin: 0;
+    display: inline-block;
+}
+
+.label {
+    font-weight: bold;
+}
+
+.prices {
+    width: 25%;
+    margin-left: 10px;
+    display: inline-block;
+}
+
+.price {
+    display: block;
+}
+
+.precio {
+    float: right;
+}
+
+.precioOriginal {
+    float: right;
+    text-decoration: line-through;
+}
+
+
+
+.moneda {
+    font-weight: 600;
+}
+.temperaments {
+    padding-bottom: 40px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .card {width: 20%;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .card {width: 25%;
+    }
+}
+@media only screen and (max-width: 850px) {
+    .card {width: 40%;
+    }
+}
+
+
+@media only screen and (max-width: 576px) {
+    .card {width: 100%;
+    }
+}
